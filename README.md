@@ -1,0 +1,1 @@
+Repositório construído na disciplina de lógica de programação no curso tecnico de desenvolvimento do SENAC/RN
