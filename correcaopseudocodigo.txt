@@ -1,0 +1,16 @@
+INICIAR 
+    LER numero(totalVotantes)
+    LER numero(brancos)
+    LER numero(nulos)
+    LER numero(validos)
+
+    SE(totalvotantes == brancos + nulos + validos) ENTÃO
+        FAZER pBrancos = (brancos/totalVotantes)*100
+        FAZER pNulos = (nulos/totalVotantes)*100
+        FAZER pValidos = (validos/totalVotantes)*100
+        ESCREVER pBrancos
+        ESCREVER pNulos
+        ESCREVER pValidos
+    SENAO
+        ESCREVER "FRAUDE"
+FINALIZAR
