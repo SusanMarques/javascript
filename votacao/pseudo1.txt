@@ -1,0 +1,16 @@
+INICIAR
+
+    LER numero(eleitores)
+    LER numero(vbrancos)
+    LER numero(vnulos)
+    LER numero(validos)
+
+
+    SE (eleitores == (vbrancos+vnulos+vvalidos)) ENTÃO
+        ESCREVER "A porcentagem de votos brancos é de:" + (VBRANCOS/Eleitores*100)+"%"+"  ")
+        ESCREVER "A porcentagem de votos nulos é de:"+ (VNULOS/Eleitores*100)+"%"+" ")
+        ESCREVER "A porcentagem de votos validos é de:" + (VVALIDOS/Eleitores*100)+"%"+" ")
+    SENÃO
+        ESCREVER "Fraude na votação"
+
+FINALIZAR
